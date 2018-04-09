@@ -65,7 +65,7 @@
                                     Console.WriteLine(ip1.ToString() + ":" + i);
                                 }
                             }
-                            soc.Disconnect(true);
+                            soc.Disconnect(false);
                         }
                         catch
                         {
